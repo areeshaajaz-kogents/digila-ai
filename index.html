@@ -367,5 +367,23 @@
   </div>
 </div>
 
+<!-- Begin Kogents Chat Widget -->
+<script type="text/javascript">
+  window.KogentsChat ||
+    (function (d, s, id) {
+      var w = (window.KogentsChat = function (c) {
+        w._.push(c);
+      });
+      w._ = [];
+      var e = d.createElement(s);
+      e.async = true;
+      e.id = id;
+      e.src = "https://api.kogents.com/widget/embed.js?key=3b65ec86-add9-4770-b036-e01122f37c44&chatbotId=f910bf71-2ca5-5c49-bafb-d6424347411e";
+      var t = d.getElementsByTagName(s)[0];
+      t.parentNode.insertBefore(e, t);
+    })(document, "script", "kogents-chat-widget");
+</script>
+<!-- End Kogents Chat Widget -->
+
 </body>
 </html>
